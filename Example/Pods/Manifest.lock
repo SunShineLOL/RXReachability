@@ -1,0 +1,27 @@
+PODS:
+  - ReachabilitySwift (5.0.0)
+  - RxReachability (0.1.0):
+    - ReachabilitySwift
+    - RxSwift
+  - RxSwift (6.2.0)
+
+DEPENDENCIES:
+  - RxReachability (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - ReachabilitySwift
+    - RxSwift
+
+EXTERNAL SOURCES:
+  RxReachability:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  RxReachability: e8b509edf1fc234411d1f4e06230668c92e32549
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+
+PODFILE CHECKSUM: 50afca6dadd5769008e5e6bcdeac9fd942217c57
+
+COCOAPODS: 1.10.0

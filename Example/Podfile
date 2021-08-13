@@ -1,0 +1,6 @@
+use_frameworks!
+target 'RxReachability_Tests' do
+  pod 'RxReachability', :path => '../'
+  
+  
+end
