@@ -1,6 +1,8 @@
+
+platform :ios, '10.0'
 use_frameworks!
 target 'RxReachability_Tests' do
-  pod 'RxReachability', :path => '../'
+  pod 'RxReachability_qkj', :path => '../'
   
   
 end

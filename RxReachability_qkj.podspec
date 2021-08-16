@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'RxReachability-qkj'
-  s.version          = '0.1.1'
+  s.name             = 'RxReachability_qkj'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of RxReachability.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'RxReachability/Classes/**/*'
+  s.source_files = 'RxReachability_qkj/Classes/**/*'
   
   # s.resource_bundles = {
   #   'RxReachability' => ['RxReachability/Assets/*.png']

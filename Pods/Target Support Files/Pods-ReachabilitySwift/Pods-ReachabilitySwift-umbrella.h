@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double RxReachabilityVersionNumber;
-FOUNDATION_EXPORT const unsigned char RxReachabilityVersionString[];
+FOUNDATION_EXPORT double Pods_ReachabilitySwiftVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_ReachabilitySwiftVersionString[];
 

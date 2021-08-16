@@ -1,0 +1,6 @@
+framework module RxReachability_qkj {
+  umbrella header "RxReachability_qkj-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "RxReachability_qkj",
+  "version": "0.1.1",
+  "summary": "A short description of RxReachability.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/SunShineLOL/RxReachability",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "czn": "443623074@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/SunShineLOL/RxReachability.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "RxReachability_qkj/Classes/**/*",
+  "dependencies": {
+    "RxSwift": [
+
+    ],
+    "ReachabilitySwift": [
+
+    ]
+  }
+}

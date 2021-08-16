@@ -1,0 +1,6 @@
+framework module Pods_Pods_RxReachability_Tests {
+  umbrella header "Pods-Pods-RxReachability_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
