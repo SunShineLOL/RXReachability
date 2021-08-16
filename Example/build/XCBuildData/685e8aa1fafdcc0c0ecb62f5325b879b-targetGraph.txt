@@ -1,0 +1,10 @@
+Target dependency graph (4 targets)
+ReachabilitySwift in Pods
+RxSwift in Pods
+RxReachability in Pods, depends on:
+ReachabilitySwift in Pods (explicit)
+RxSwift in Pods (explicit)
+Pods-RxReachability_Tests in Pods, depends on:
+ReachabilitySwift in Pods (explicit)
+RxReachability in Pods (explicit)
+RxSwift in Pods (explicit)
