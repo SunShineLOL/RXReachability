@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'RxReachability'
-  s.version          = '0.1.0'
+  s.name             = 'RxReachability-qkj'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of RxReachability.'
 
 # This description is used to generate tags and improve search results.
