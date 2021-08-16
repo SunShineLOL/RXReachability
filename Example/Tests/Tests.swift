@@ -1,5 +1,5 @@
 import XCTest
-import RxReachability
+import RxReachability_qkj
 
 class Tests: XCTestCase {
     

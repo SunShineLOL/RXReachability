@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RxReachability_qkj'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RxReachability.'
+  s.summary          = 'RxReachability_qkj is rx extesion'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    qkj reachability desc https://github.com/SunShineLOL/RxReachability
                        DESC
 
   s.homepage         = 'https://github.com/SunShineLOL/RxReachability'
@@ -41,6 +41,6 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
     s.dependency 'RxSwift'
     s.dependency 'ReachabilitySwift'
-    
+    s.swift_version = '5.0'
     
 end
