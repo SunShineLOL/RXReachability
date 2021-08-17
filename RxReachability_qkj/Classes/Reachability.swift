@@ -11,15 +11,15 @@ import RxSwift
 import Reachability
 
 // An observable that completes when the app gets online (possibly completes immediately).
-func connectedToInternet() -> Observable<Bool> {
+public func connectedToInternet() -> Observable<Bool> {
     return ReachabilityManager.shared.reach
 }
 
-var isWifi: Bool {
+public var isWifi: Bool {
     return ReachabilityManager.shared.isWifi
 }
 
-private class ReachabilityManager: NSObject {
+public class ReachabilityManager: NSObject {
     
     static let shared = ReachabilityManager()
     
