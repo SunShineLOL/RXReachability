@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxReachability_qkj'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'RxReachability_qkj is rx extesion'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'RxReachability_qkj/Classes/**/*'
+  s.source_files = 'RxReachability_qkj/Classes/**/*/*'
   
   # s.resource_bundles = {
   #   'RxReachability' => ['RxReachability/Assets/*.png']
