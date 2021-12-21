@@ -1190,6 +1190,37 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		143F193E9B148F6DFFDAECFEA962ACDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BED93EBD683F96E7B86821EDD7D3A185 /* RxReachability_qkj.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RxReachability_qkj/RxReachability_qkj-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxReachability_qkj/RxReachability_qkj-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RxReachability_qkj/RxReachability_qkj.modulemap";
+				PRODUCT_MODULE_NAME = RxReachability_qkj;
+				PRODUCT_NAME = RxReachability_qkj;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		4137D546AD70A2DCCAC81DD7790D5C9D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9D20D5D06D89B7B825A0C0094031AA5B /* RxSwift.release.xcconfig */;
@@ -1284,9 +1315,9 @@
 			};
 			name = Debug;
 		};
-		6EE15FD85AEB00EDDBCB19276F50E7F4 /* Debug */ = {
+		725043640875DD24EEF45E7B64B61DA5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BED93EBD683F96E7B86821EDD7D3A185 /* RxReachability_qkj.debug.xcconfig */;
+			baseConfigurationReference = 5209CEEAD7C75E679B577D01A38E1ED8 /* RxReachability_qkj.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1308,12 +1339,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1404,38 +1436,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A8868C7A6D91300C1ACBA1F3077C43CE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5209CEEAD7C75E679B577D01A38E1ED8 /* RxReachability_qkj.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RxReachability_qkj/RxReachability_qkj-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxReachability_qkj/RxReachability_qkj-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RxReachability_qkj/RxReachability_qkj.modulemap";
-				PRODUCT_MODULE_NAME = RxReachability_qkj;
-				PRODUCT_NAME = RxReachability_qkj;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1603,8 +1603,8 @@
 		B68283709AE959535567D15EC4543085 /* Build configuration list for PBXNativeTarget "RxReachability_qkj" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6EE15FD85AEB00EDDBCB19276F50E7F4 /* Debug */,
-				A8868C7A6D91300C1ACBA1F3077C43CE /* Release */,
+				143F193E9B148F6DFFDAECFEA962ACDB /* Debug */,
+				725043640875DD24EEF45E7B64B61DA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -41,6 +41,6 @@ Pod::Spec.new do |s|
   # s.dependency 'AFNetworking', '~> 2.3'
     s.dependency 'RxSwift'
     s.dependency 'ReachabilitySwift'
-    #s.swift_version >= '5.0'
+    s.swift_version = '5.1'
     
 end
