@@ -1,6 +1,6 @@
 PODS:
   - ReachabilitySwift (5.0.0)
-  - RxReachability_qkj (0.1.1):
+  - RxReachability_qkj (0.1.2):
     - ReachabilitySwift
     - RxSwift
   - RxSwift (6.2.0)
@@ -19,9 +19,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
-  RxReachability_qkj: 341b25ea36ed40bce2a0a8a2d44034ad277c0a30
+  RxReachability_qkj: 29b65db844bb36e3017a936356b8384c7aadbb08
   RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
 
 PODFILE CHECKSUM: a585287b8e5d849d508c1bc324017aa7958557ff
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.11.1

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxReachability_qkj'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'RxReachability_qkj is rx extesion'
 
 # This description is used to generate tags and improve search results.
@@ -41,6 +41,6 @@ Pod::Spec.new do |s|
   # s.dependency 'AFNetworking', '~> 2.3'
     s.dependency 'RxSwift'
     s.dependency 'ReachabilitySwift'
-    s.swift_version = '5.0'
+    #s.swift_version >= '5.0'
     
 end

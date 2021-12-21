@@ -1,9 +1,8 @@
 //
 //  Reachability.swift
-//  PC Money
 //
 //  Created by czn on 2019/6/20.
-//  Copyright © 2019 czn. All rights reserved.
+//  Copyright © 2019 czn. All rights reserved.S
 //
 
 import Foundation
